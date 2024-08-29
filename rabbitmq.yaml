@@ -24,7 +24,7 @@ spec:
         livenessProbe:
           exec:
             command:
-            - rabbitmq-diagnostics
+            - rabbit-diagnostics
             - ping
           initialDelaySeconds: 10
           periodSeconds: 5
