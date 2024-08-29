@@ -27,7 +27,7 @@ spec:
             - rabbitmq-diagnostics
             - ping
           initialDelaySeconds: 10
-          periodSeconds: 10
+          periodSeconds: 5
           timeoutSeconds: 5
         ports:
         - name: management
